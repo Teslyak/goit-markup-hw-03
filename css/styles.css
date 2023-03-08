@@ -56,12 +56,27 @@ text-decoration: none;
     padding-right: 15px;
 }
 .section {
+    width: 1440px;
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .suptitle {
     margin-bottom: 8px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* ===========================HEADER================ */
@@ -140,29 +155,23 @@ margin-bottom: 72px;
 
 }
 
+.button {
+cursor: pointer;
+}
+
 /* ===========================/ HEADER /================ */
 
 /* ============================HERO===================== */
-.section-hero {
-
+.section-hero{
+padding-top: 0;
+background-color:var(--color-secondary);
 
 }
 .hero-container{
-/* display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-height: 600px;    */
-background-color:var(--color-secondary);
+
 padding-top: 188px;
 padding-bottom: 188px;
-display: block;
 }
-.hero-btn{
-margin-top: 48px;
-
-}
-
 .hero-title {
 font-weight: 700;
 font-size: 56px;
@@ -186,7 +195,6 @@ padding-top: 16px;
 padding-left: 32px;
 padding-bottom: 16px;
 padding-right: 32px;
-cursor: pointer;
 background-color: var(--color-logo-links);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -194,6 +202,7 @@ border:none;
 display: block;
 margin-left: auto;
 margin-right: auto;
+margin-top: 48px;
 
 }
 .hero-btn:hover,
@@ -226,6 +235,8 @@ width: calc((100%-72px)/4);
 
 /* ============================ /FEATURES SECTION/ ============ */
 
+
+
 /* ============================ WORK SECTION ============ */
 .work-title {
 font-size: 36px;
@@ -237,19 +248,20 @@ color: var(--color-secondary);
 .work-title {
 text-align:center;
 }
-
-
 .work-list{
     display: flex;
     gap: 24px;
+    padding-bottom: 120px;
 }
-
 
 /* ============================ / WORK SECTION / ============ */
 
+
+
 /* ============================ TEAM SECTION ============ */
-.section-team {
+.team-section {
 background-color:var(--color-background-secondary) ;
+
 }
 .team-title {
 font-size: 36px;
@@ -257,6 +269,8 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--color-secondary);
+text-align: center;
+margin-top: 120px;
 
 }
 .name-employee-team { 
@@ -265,22 +279,24 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--color-secondary);
+text-align: center;
 }
 .professions-team {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-primary);
+text-align: center;
 
 }
 .employee-team {
 background-color: var(--color-background-primary);
 }
-.team-title{
-text-align: center;
-}
+
 .team-list {
+    padding-bottom: 60px;
     display: flex;
+    gap: 24px;
 }
 
 

@@ -1,0 +1,345 @@
+/* основний колір  #434455 */
+/* другорядний колір заголовків h3, меню навігаці, лого #2E2F42 */
+/* колір головного заголовка  #FFFFFF */
+/* основний колір фону #FFFFFF */
+/* колір лого "WEB" #4D5AE5 */
+
+:root {
+--color-primary: #434455;
+--color-secondary:#2E2F42;
+--color-background-primary:#FFFFFF;
+--color-logo-links:#4D5AE5;
+--color-pressed-state:#404BBF;
+--color-text:#ffffff;
+--color-text-btn:#4D5AE5;
+--color-bgr-btn:#F4F4FD;
+--color-border-btn:#E7E9FC;
+--color-background-secondary:#F4F4FD;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+background-color:var(--color-background-primary);
+color: var(--color-primary);
+}
+ul {
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+img {
+    display: block;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+   
+
+/* Скидування стилей списку */
+.list {
+list-style: none;
+}
+/* Скидування стилей посилань */
+.link {
+text-decoration: none;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.suptitle {
+    margin-bottom: 8px;
+}
+
+/* ===========================HEADER================ */
+
+.link:hover,
+.link:focus {
+    color:var(--color-pressed-state);
+}
+
+/* Колір для лого */
+.letter {
+    color:var(--color-logo-links);
+}
+.logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+color:var(--color-secondary);
+text-decoration: none;
+}
+
+ .header-link  {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-secondary);
+ }
+.contact-link {
+font-style: normal;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-primary);
+}
+.header-container {
+    display:flex;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.contacts-list {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.contacts-list .contact-link+.contact-link {
+    margin-right: 40px;
+}
+.logo {
+    margin-right: 76px;
+}
+.menu-list:not(:last-child) {
+    margin-right: 40px;
+}
+.contacts-list .contacts-item + .contacts-item {
+    margin-left: 40px;
+}
+
+.menu-contacts {
+    margin-left: auto;
+}
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.title {
+font-weight: 700;
+margin-bottom: 72px;
+
+}
+
+/* ===========================/ HEADER /================ */
+
+/* ============================HERO===================== */
+.section-hero {
+
+
+}
+.hero-container{
+/* display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+height: 600px;    */
+background-color:var(--color-secondary);
+padding-top: 188px;
+padding-bottom: 188px;
+display: block;
+}
+.hero-btn{
+margin-top: 48px;
+
+}
+
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color:var(--color-text); 
+width: 496px;
+text-align:center;
+margin-left:auto;
+margin-right: auto;
+}
+.hero-btn {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--color-text);
+min-width: 169px;
+padding-top: 16px;
+padding-left: 32px;
+padding-bottom: 16px;
+padding-right: 32px;
+cursor: pointer;
+background-color: var(--color-logo-links);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border:none;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.hero-btn:hover,
+.hero-btn:focus{
+background-color:var(--color-pressed-state);
+}
+/* ============================ / HERO /===================== */
+/* ============================ FEATURES SECTION ============ */
+.features-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-secondary);
+}
+.features-subtitle {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-primary);
+}
+.features-list {
+    display: flex; 
+    gap: 24px;
+}
+.features-list-item{
+width: calc((100%-72px)/4);
+}
+   
+
+/* ============================ /FEATURES SECTION/ ============ */
+
+/* ============================ WORK SECTION ============ */
+.work-title {
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--color-secondary);
+}
+.work-title {
+text-align:center;
+}
+
+
+.work-list{
+    display: flex;
+    gap: 24px;
+}
+
+
+/* ============================ / WORK SECTION / ============ */
+
+/* ============================ TEAM SECTION ============ */
+.section-team {
+background-color:var(--color-background-secondary) ;
+}
+.team-title {
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--color-secondary);
+
+}
+.name-employee-team { 
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-secondary);
+}
+.professions-team {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-primary);
+
+}
+.employee-team {
+background-color: var(--color-background-primary);
+}
+.team-title{
+text-align: center;
+}
+.team-list {
+    display: flex;
+}
+
+
+/* ============================ / TEAM SECTION /  ============ */
+/* ============================ FOOTER  ============ */
+.footer-page {
+
+background-color: var(--color-secondary);
+}
+.copyright {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-border-btn);
+}
+.logo-letter {
+color: var(--color-bgr-btn);
+}
+/* ============================ /FOOTER/  ============ */
+
+/* ======================= PROGECT PORTFOLIO =================*/
+.project-btn {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+border-radius: 4px;
+background-color: var(--color-bgr-btn);
+border: 1px solid var(--color-border-btn);
+color: var(--color-text-btn);
+cursor: pointer;
+}
+.project-btn:hover,
+.project-btn:focus {
+background-color: var(--color-pressed-state);
+color: var(--color-text);
+}
+
+.portfolio-project-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--color-secondary);
+}
+.portfolio-project-subtitle {
+font-size: 16px;
+line-height: 1.2;
+color: var(--color-primary);
+}
+
+.portfolio-project-title:hover,
+.portfolio-project-title:focus {
+color:var(--color-pressed-state);
+
+}
+.portfolio-project-subtitle:hover,
+.portfolio-project-subtitle:focus {
+color:var(--color-pressed-state); 
+}
+
+/* =====================/PROGECT PORTFOLIO/ =================*/

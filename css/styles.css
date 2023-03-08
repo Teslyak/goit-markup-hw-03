@@ -251,7 +251,7 @@ text-align:center;
 .work-list{
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 
 /* ============================ / WORK SECTION / ============ */
@@ -261,6 +261,7 @@ text-align:center;
 /* ============================ TEAM SECTION ============ */
 .team-section {
 background-color:var(--color-background-secondary) ;
+padding-bottom: 120px;
 
 }
 .team-title {
@@ -270,7 +271,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--color-secondary);
 text-align: center;
-margin-top: 120px;
+margin-top: 60px;
 
 }
 .name-employee-team { 
@@ -280,6 +281,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--color-secondary);
 text-align: center;
+margin-top: 32px;
 }
 .professions-team {
 font-size: 16px;
@@ -287,6 +289,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-primary);
 text-align: center;
+padding-bottom: 32px;
 
 }
 .employee-team {
@@ -294,16 +297,19 @@ background-color: var(--color-background-primary);
 }
 
 .team-list {
-    padding-bottom: 60px;
+    
     display: flex;
     gap: 24px;
 }
 
 
 /* ============================ / TEAM SECTION /  ============ */
+
+
 /* ============================ FOOTER  ============ */
 .footer-page {
-
+    padding-top: 101px;
+padding-bottom: 100px;
 background-color: var(--color-secondary);
 }
 .copyright {
@@ -314,6 +320,12 @@ color: var(--color-border-btn);
 }
 .logo-letter {
 color: var(--color-bgr-btn);
+
+}
+.copyright {
+width: 264px;
+margin-top: 17px;
+    
 }
 /* ============================ /FOOTER/  ============ */
 

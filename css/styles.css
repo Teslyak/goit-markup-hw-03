@@ -51,34 +51,34 @@ text-decoration: none;
 }
 
 .container {
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+width: 1158px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
 }
 .section {
-    width: 1440px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin-left: auto;
-    margin-right: auto;
+width: 1440px;
+padding-top: 60px;
+padding-bottom: 60px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .suptitle {
-    margin-bottom: 8px;
+margin-bottom: 8px;
 }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 
 /* ===========================HEADER================ */
@@ -86,12 +86,12 @@ text-decoration: none;
 
 .link:hover,
 .link:focus {
-    color:var(--color-pressed-state);
+color:var(--color-pressed-state);
 }
 
 /* Колір для лого */
 .letter {
-    color:var(--color-logo-links);
+color:var(--color-logo-links);
 }
 .logo {
 font-family: 'Raleway', sans-serif;
@@ -101,7 +101,6 @@ line-height: 1.33;
 color:var(--color-secondary);
 text-decoration: none;
 }
-
  .header-link  {
 font-weight: 500;
 font-size: 16px;
@@ -144,7 +143,6 @@ margin-right: 40px;
 .contacts-list .contacts-item + .contacts-item {
 margin-left: 40px;
 }
-
 .menu-contacts {
 margin-left: auto;
 }
@@ -159,9 +157,7 @@ border-bottom: 1px solid var(--color-border-btn);
 .title {
 font-weight: 700;
 margin-bottom: 72px;
-
 }
-
 .button {
 cursor: pointer;
 }
@@ -232,8 +228,8 @@ letter-spacing: 0.02em;
 color: var(--color-primary);
 }
 .features-list {
-    display: flex; 
-    gap: 24px;
+display: flex; 
+gap: 24px;
 }
 .features-list-item{
 width: calc((100%-72px)/4);
@@ -256,9 +252,9 @@ color: var(--color-secondary);
 text-align:center;
 }
 .work-list{
-    display: flex;
-    gap: 24px;
-    padding-bottom: 60px;
+display: flex;
+gap: 24px;
+padding-bottom: 60px;
 }
 
 /* ============================ / WORK SECTION / ============ */
@@ -297,27 +293,23 @@ letter-spacing: 0.02em;
 color: var(--color-primary);
 text-align: center;
 padding-bottom: 32px;
-
 }
 .employee-team {
 background-color: var(--color-background-primary);
 }
 
-.team-list {
-    
-    display: flex;
-    gap: 24px;
-    
+.team-list {   
+display: flex;
+gap: 24px;  
 }
-
-
 /* ============================ / TEAM SECTION /  ============ */
 
 
 /* ============================ FOOTER  ============ */
 .footer-page {
-    padding-top: 101px;
+padding-top: 100px;
 padding-bottom: 100px;
+padding-left: 93px;
 background-color: var(--color-secondary);
 }
 .copyright {
@@ -332,9 +324,10 @@ color: var(--color-bgr-btn);
 }
 .copyright {
 width: 264px;
-margin-top: 17px;
-    
+margin-top: 17px;    
 }
+
+
 /* ============================ /FOOTER/  ============ */
 
 /* ======================= PROJECT PORTFOLIO =================*/
@@ -348,7 +341,6 @@ border-radius: 4px;
 background-color: var(--color-bgr-btn);
 border: 1px solid var(--color-border-btn);
 color: var(--color-text-btn);
-cursor: pointer;
 }
 .project-btn:hover,
 .project-btn:focus {
@@ -398,18 +390,17 @@ margin-left: 24px;
 }
 
 .filter-section {
-    padding-bottom: 120px;
+padding-bottom: 120px;
 }
 
 
 .card-content {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 54px;
-    border-bottom: 1px solid var(--color-border-card);
-    border-left: 1px solid var(--color-border-card);
-    border-right: 1px solid var(--color-border-card);
-    
+padding-top: 32px;
+padding-bottom: 32px;
+padding-left: 16px;
+padding-right: 54px;
+border-bottom: 1px solid var(--color-border-card);
+border-left: 1px solid var(--color-border-card);
+border-right: 1px solid var(--color-border-card);    
 }
 /* =====================/PROGECT PORTFOLIO/ =================*/

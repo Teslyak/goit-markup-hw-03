@@ -15,6 +15,8 @@
 --color-bgr-btn:#F4F4FD;
 --color-border-btn:#E7E9FC;
 --color-background-secondary:#F4F4FD;
+--color-border-card:#E7E9FC;
+
 }
 
 body {
@@ -398,18 +400,16 @@ margin-left: 24px;
 .filter-section {
     padding-bottom: 120px;
 }
-.card-thumb{
 
-}
-.Item * {
-    /* outline: 1px solid tomato; */
-    
-}
+
 .card-content {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 54px;
-    ;
+    border-bottom: 1px solid var(--color-border-card);
+    border-left: 1px solid var(--color-border-card);
+    border-right: 1px solid var(--color-border-card);
+    
 }
 /* =====================/PROGECT PORTFOLIO/ =================*/

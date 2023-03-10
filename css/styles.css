@@ -58,11 +58,9 @@ padding-left: 15px;
 padding-right: 15px;
 }
 .section {
-width: 1440px;
-padding-top: 60px;
-padding-bottom: 60px;
-margin-left: auto;
-margin-right: auto;
+padding-top: 120px;
+padding-bottom: 120px;
+
 }
 
 .suptitle {
@@ -147,9 +145,6 @@ margin-left: 40px;
 margin-left: auto;
 }
 .page-header {
-width: 1440px;
-margin-left: auto;
-margin-right: auto;
 padding-top: 24px;
 padding-bottom: 24px;
 border-bottom: 1px solid var(--color-border-btn);
@@ -166,14 +161,14 @@ cursor: pointer;
 
 /* ============================HERO===================== */
 .section-hero{
-padding-top: 0;
+padding-top: 188px;
+padding-bottom: 188px;
 background-color:var(--color-secondary);
 
 }
 .hero-container{
 
-padding-top: 188px;
-padding-bottom: 188px;
+
 }
 .hero-title {
 font-weight: 700;
@@ -241,6 +236,9 @@ width: calc((100%-72px)/4);
 
 
 /* ============================ WORK SECTION ============ */
+.section-work {
+padding-top: 0;
+}
 .work-title {
 font-size: 36px;
 line-height: 40px;
@@ -254,7 +252,6 @@ text-align:center;
 .work-list{
 display: flex;
 gap: 24px;
-padding-bottom: 60px;
 }
 
 /* ============================ / WORK SECTION / ============ */
@@ -274,7 +271,6 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--color-secondary);
 text-align: center;
-margin-top: 60px;
 
 }
 .name-employee-team { 
@@ -292,10 +288,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-primary);
 text-align: center;
-padding-bottom: 32px;
+
 }
 .employee-team {
+padding-bottom: 32px;
 background-color: var(--color-background-primary);
+border-radius: 0px 0px 4px 4px;
 }
 
 .team-list {   
@@ -309,7 +307,6 @@ gap: 24px;
 .footer-page {
 padding-top: 100px;
 padding-bottom: 100px;
-padding-left: 93px;
 background-color: var(--color-secondary);
 }
 .copyright {
@@ -341,6 +338,7 @@ border-radius: 4px;
 background-color: var(--color-bgr-btn);
 border: 1px solid var(--color-border-btn);
 color: var(--color-text-btn);
+padding: 12px 24px;
 }
 .project-btn:hover,
 .project-btn:focus {
@@ -371,7 +369,6 @@ color:var(--color-pressed-state);
 }
 .project-filter-btn {
 margin-bottom: 72px;
-padding-top: 48px;
 display: flex;
 justify-content: center;
 gap: 24px;
@@ -390,7 +387,7 @@ margin-left: 24px;
 }
 
 .filter-section {
-padding-bottom: 120px;
+padding-top: 96px;
 }
 
 
@@ -398,7 +395,7 @@ padding-bottom: 120px;
 padding-top: 32px;
 padding-bottom: 32px;
 padding-left: 16px;
-padding-right: 54px;
+padding-right: 16px;
 border-bottom: 1px solid var(--color-border-card);
 border-left: 1px solid var(--color-border-card);
 border-right: 1px solid var(--color-border-card);    

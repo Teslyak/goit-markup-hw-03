@@ -31,6 +31,8 @@ padding-left: 0;
 }
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 h1,
 h2,
@@ -326,7 +328,7 @@ color: var(--color-bgr-btn);
 }
 .copyright {
 width: 264px;
-margin-top: 17px;    
+margin-top: 16px;    
 }
 
 
